@@ -1,0 +1,17 @@
+{
+  "name": "mongodb-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.4",
+    "node-spider": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Teixeira",
+  "license": "MIT"
+}
