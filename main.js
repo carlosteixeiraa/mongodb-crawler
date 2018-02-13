@@ -79,7 +79,7 @@ app.listen(porta, () => {
 })
 
 app.get('/ligar', (req, res) => {
-    var linkq = res.query.link;
+    var linkq = req.query.link;
 
     spider.queue(linkq, pedido);
 
