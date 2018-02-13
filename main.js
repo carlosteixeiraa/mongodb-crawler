@@ -78,4 +78,10 @@ app.listen(porta, () => {
     console.log('Servidor ligado.');
 })
 
-spider.queue('https://umlink.com/', pedido);
+app.get('/ligar', (req, res) => {
+    var linkq = res.query.link;
+
+    spider.queue(linkq, pedido);
+
+    res.redirect('ooon.online:3020');
+})
